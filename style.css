@@ -1,0 +1,168 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+   
+.continar {
+  width: 100%;
+  height: 100vh;
+  background:url(carousel-1.jpg);
+  background-position: center;
+  animation: ucl 9s  infinite;
+
+}
+
+
+.banner {
+  width: 100%;
+  height: 90px;
+ position: fixed;
+ display: flex;
+ justify-content: space-between;
+ margin: auto;
+ align-items: center;
+ background-color: rgb(14, 5, 120);
+
+}
+.fa-solid {
+  color: white;
+  font-size: x-large  
+   
+}
+
+@keyframes ucl {
+
+    30%{
+      background-image: url(880d813f05620fc4cf3f71e629d59bb6.jpg);
+
+    }
+    50%{
+      background-image: url(uefa_champions_league__2022___2023_by_jafarjeef_dfb9jvz-fullview.jpg);
+      
+    }
+   
+    80%{
+      background: url(uclreal\ madrid.jpg);
+      background-position: center;
+    }
+
+  
+
+}
+
+ #navbar {
+    position: absolute;
+    width: 50%;
+    height: 200px;
+    background-color: rgba(200, 200, 255, 0.2);
+    border-radius: 20px;
+    right: 0;
+    top: 80px;
+    
+   
+
+
+ }
+ button {
+  border: none;
+  background-color: transparent;
+  margin-right: 20px;
+  
+   
+ }
+ .logo {
+  margin-left: 20px;
+ }
+
+ a {
+  text-decoration: none;
+  display: block;
+  padding: 5px;
+  color: white;
+  font-size: large;
+  margin:6px 0px 0px 6px;
+
+
+  
+ }
+
+ .hide {
+  display: none;
+ }
+
+ .second {
+   width: 100%;
+   height: 1200px;
+   background: url(first.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+
+ }
+ .third {
+  width: 100%;
+  height: 200px;
+  background: url(second.jpg);
+  background-repeat: no-repeat;
+
+}
+h1 {
+  color: white;
+  text-align: center;
+  padding: 16px;
+}
+
+.groupea {
+   width: 50% ;
+   height: 185px;
+   background: url(groupe\ a.png);
+   background-repeat: no-repeat;
+   margin: auto;
+   padding: 20px ;
+
+ }
+ .groupeb {
+  width: 50% ;
+  height: 185px;
+  margin: auto;
+  background: url(groupe\ b.png);
+  background-repeat: no-repeat;
+  padding: 20px ;
+
+}
+ .groupec {
+  width: 50% ;
+  height: 185px;
+  margin: auto;
+  background: url(groupe\ c.png);
+  background-repeat: no-repeat;
+  padding: 20px ;
+  
+ }
+ .grouped {
+  width: 50% ;
+  height: 185px;
+  margin: auto;
+  background: url(groupe\ D.png);
+  background-repeat: no-repeat;
+  padding: 20px ;
+ }
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width :500px) 
+  {
+   .continar {
+     width: 100%;
+
+   }
+
+  }
